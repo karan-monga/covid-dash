@@ -12,3 +12,6 @@ Install Gatsby CLI
 Run application
 
 ```gatsby develop```
+
+
+Live Demo : https://covid-dash-map.netlify.app/
