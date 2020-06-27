@@ -2,10 +2,12 @@
 
 
 Install node dependencies
-npm install
+
+```npm install```
 
 Install Gatsby CLI
-npm install -g gatsby-cli
+```
+npm install -g gatsby-cli```
 
 Run application
-gatsby develop
+```gatsby develop```
