@@ -29,6 +29,7 @@
     "eslint-config-zurgbot": "^0.0.7",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.2",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "lint-staged": "^10.2.2",
@@ -52,7 +53,9 @@
     "lint": "eslint -c ./config/eslint.config.js . --ext .js",
     "start": "npm develop",
     "serve": "gatsby serve",
-    "test": "jest --config ./config/jest.config.js"
+    "test": "jest --config ./config/jest.config.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
@@ -65,7 +68,7 @@
       "npm lint"
     ]
   },
-  "homepage": "",
+  "homepage": "https://github.com/karan-monga/covid-dash.git",
   "repository": {
     "type": "git",
     "url": ""
