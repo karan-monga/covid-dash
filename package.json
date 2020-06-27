@@ -55,7 +55,7 @@
     "serve": "gatsby serve",
     "test": "jest --config ./config/jest.config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "husky": {
     "hooks": {
