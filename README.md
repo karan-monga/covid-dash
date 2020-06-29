@@ -1,4 +1,6 @@
-## Gatsby CLI + React + Leaflet COVID 19 - Tracking Dash + Map for Apexx Strategies
+## Gatsby CLI + React + Leaflet COVID 19 - Tracking Dash
+
+## Map for Apexx Strategies
 
 
 Install node dependencies
