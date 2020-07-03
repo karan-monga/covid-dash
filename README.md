@@ -16,4 +16,4 @@ Run application
 ```gatsby develop```
 
 
-Live Demo : https://covid-dash-map.netlify.app/
+# Live Demo : https://covid-dash-map.netlify.app/
